@@ -2,4 +2,4 @@
 
 persons=("prasad" "Gopi" "hemanth")
 
-echo "first person is : ${person[0]}"
+echo "first person is :${persons[0]}"
