@@ -21,7 +21,7 @@ validate(){
     fi
 }
 
-userid=$id -u)
+userid=$(id -u)
 if [ $userid -ne 0 ]
 then 
      echo -e " $R error: Please run the script with root access $N"
